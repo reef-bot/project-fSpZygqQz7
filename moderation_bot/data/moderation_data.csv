@@ -1,0 +1,9 @@
+```python
+import pandas as pd
+
+# Initialize an empty DataFrame for moderation data
+moderation_data = pd.DataFrame(columns=['content', 'category'])
+
+# Save the moderation data to a CSV file
+moderation_data.to_csv('moderation_data.csv', index=False)
+```
